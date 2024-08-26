@@ -5,40 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Povitrya Weather App</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Monday 15:00, few clouds <br />
-          Humidity: 45%, Wind: 3.09km/h
-        </p>
-      </div>
-      <div>⛅23°C</div>
-    </main>
-    <footer>
-      This projecy was coded by
-      <a href="https://github.com/ViktoriiaKucher" target="_blank">
-        Viktoria Kucher</a
-      >
-      , is
-      <a
-        href="https://github.com/ViktoriiaKucher/Povitrya-weatherApp"
-        target="_blank"
-        >open-sourced on GitHub
-      </a>
-      and
-      <a href="https://povitrya-weather.netlify.app/" target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Monday 15:00, few clouds <br />
+            Humidity: 45%, Wind: 3.09km/h
+          </p>
+        </div>
+        <div>⛅23°C</div>
+      </main>
+      <footer>
+        This projecy was coded by
+        <a href="https://github.com/ViktoriiaKucher" target="_blank">
+          Viktoria Kucher</a
+        >
+        , is
+        <a
+          href="https://github.com/ViktoriiaKucher/Povitrya-weatherApp"
+          target="_blank"
+          >open-sourced on GitHub
+        </a>
+        and
+        <a href="https://povitrya-weather.netlify.app/" target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
