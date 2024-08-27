@@ -1,12 +1,48 @@
 body {
-  background-color: #dad9c7;
+  background-image: url("file:///C:/Users/artwo/OneDrive/Desktop/Shecodes/Povitrya-weatherApp/src/img/background.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #aecec3;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+a {
+  color: #618b7d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .weather-app {
-  background-color: white;
+  background-color: #ffffff;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
   border-radius: 18px;
-  box-shadow: 0 30px 50px rgba(77, 100, 50, 0.08);
+  box-shadow: 5px 20px 30px rgba(62, 190, 158, 0.1);
+}
+.search-form-input {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 80%;
+  font-size: 15px;
+}
+.search-form-button {
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 25px;
+  font-size: 13px;
+  background-color: #ff896e;
+  color: white;
+}
+footer {
+  padding: 30px 0 0;
+  border-top: 1px solid #f7f7f7;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 12px;
 }
