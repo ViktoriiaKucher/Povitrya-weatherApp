@@ -1,5 +1,5 @@
 body {
-  background-image: url("file:///C:/Users/artwo/OneDrive/Desktop/Shecodes/Povitrya-weatherApp/src/img/background.PNG");
+  background-image: url("src/img/background.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -38,6 +38,46 @@ a {
   font-size: 13px;
   background-color: #ff896e;
   color: white;
+}
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-app-details {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.weather-app-details strong {
+  color: #ff896e;
+  font-weight: 600;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 15px;
+}
+
+.weather-app-temperature {
+  margin-left: 10px;
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather-app-unit {
+  font-size: 25px;
+  margin-top: 16px;
+  font-weight: 500;
 }
 footer {
   padding: 30px 0 0;
