@@ -7,8 +7,9 @@ function updateWeather(responce) {
   let windSpeedElement = document.querySelector("#wind-speed");
   let timeElement = document.querySelector("#time");
   let date = new Date(responce.data.time * 1000);
-  console.log(responce.data);
+  let iconElement = document.querySelector("#icon");
 
+  iconElement.innerHTML = `<img src="${responce.data.condition.icon_url}" class="weather-app-icon"/>`;
   timeElement.innerHTML = formatDate(date);
   cityElement.innerHTML = responce.data.city;
   descriptionElement.innerHTML = responce.data.condition.description;
